@@ -149,7 +149,7 @@ function AboutUs() {
         </div>
 
         {/* Stats Section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
@@ -175,7 +175,7 @@ function AboutUs() {
             <h3 className="text-4xl font-bold text-green-500 mb-2">5</h3>
             <p className="text-gray-300">Security Certifications</p>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Binary code floating elements */}
