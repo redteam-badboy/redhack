@@ -252,7 +252,7 @@ function ContactSection() {
                   <h4 className="font-bold text-white mb-1">Email</h4>
                   <p className="text-gray-400">For secure communications</p>
                   <a href="mailto:redhackevolution@gmail.com" className="text-green-500 hover:underline font-mono">
-                    redhackevolution@gmail.com
+                    redhackevolutions@gmail.com
                   </a>
                 </div>
               </div>
