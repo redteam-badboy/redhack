@@ -73,7 +73,7 @@ function Footer() {
             </div>
             <p className="text-gray-400 mb-6">
               Junior ethical hacker specializing in penetration testing, vulnerability assessment, and security
-              consulting. Certified in CEH with expertise in MITRE ATT&CK Framework and Cyber Kill Chain methodology.
+              consulting. With expertise in MITRE ATT&CK Framework and Cyber Kill Chain methodology.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-black/30 hover:bg-green-500/20 p-2.5 rounded-full transition-colors">
@@ -180,10 +180,10 @@ function Footer() {
               <li className="flex items-start">
                 <FaEnvelope className="text-green-500 mt-1 mr-3" size={18} />
                 <a
-                  href="mailto:redhackevolution@gmail.com"
+                  href="mailto:redhackevolutions@gmail.com"
                   className="text-gray-400 hover:text-green-500 transition-colors font-mono"
                 >
-                  makhosi@securityexpert.com
+                  redhackevolutions@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
