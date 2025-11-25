@@ -147,9 +147,9 @@ function AboutUs() {
 
             {/* CTA Button */}
             <div className="pt-6">
-              <a href="/#contact"  className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-mono rounded-md transition-all duration-300 hover:shadow-[0_0_15px_rgba(16,185,129,0.5)] flex items-center justify-center">
+              <a href="https://flowcv.com/resume/hikpkatkrpls"   target="blank" className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-mono rounded-md transition-all duration-300 hover:shadow-[0_0_15px_rgba(16,185,129,0.5)] flex items-center justify-center">
                 <FaUserSecret className="mr-2" size={18} />
-                Contact Us Now
+               View My Resume
               </a>
             </div>
           </motion.div>
