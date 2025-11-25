@@ -27,44 +27,42 @@ function Hero() {
           </div>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-2 font-mono">Makhosi Ncube</h1>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-green-500 mb-6 font-mono">
-            Cybersecurity Specialist
+            Professional Web Developer
           </h1>
           <p className="text-gray-300 mb-8 max-w-lg mx-auto md:mx-0 font-light">
-            Junior ethical hacker with expertise in vulnerability assessment, penetration testing, and security
-            analysis. Proficient in CEH methodologies, MITRE ATT&CK Framework, and Cyber Kill Chain for comprehensive
-            threat modeling and red team operations.
+            A professional , fullstack web developer with strong foundation i JavaScript frameworks like React and Next.Js.Creating seamless user experiences with enticing UI.I use latest UI libraries including Daisy UI, Shadcn UI, Aceternity UI and many more.
           </p>
           {/* Service Features */}
           <div className="grid grid-cols-2 gap-4 mb-8">
             <div className="flex items-center group">
               <FaShieldAlt className="text-green-500 mr-2 group-hover:text-green-400 transition-colors" size={24} />
-              <span className="text-white group-hover:text-green-400 transition-colors">CEH Certified</span>
+              <span className="text-white group-hover:text-green-400 transition-colors">Fullstack Frameworks</span>
             </div>
             <div className="flex items-center group">
               <FaTerminal className="text-green-500 mr-2 group-hover:text-green-400 transition-colors" size={24} />
-              <span className="text-white group-hover:text-green-400 transition-colors">Red Teaming</span>
+              <span className="text-white group-hover:text-green-400 transition-colors">Front End</span>
             </div>
             <div className="flex items-center group">
               <FaNetworkWired className="text-green-500 mr-2 group-hover:text-green-400 transition-colors" size={24} />
-              <span className="text-white group-hover:text-green-400 transition-colors">MITRE Framework</span>
+              <span className="text-white group-hover:text-green-400 transition-colors">Back End</span>
             </div>
             <div className="flex items-center group">
               <AiFillSafetyCertificate
                 className="text-green-500 mr-2 group-hover:text-green-400 transition-colors"
                 size={24}
               />
-              <span className="text-white group-hover:text-green-400 transition-colors">Cyber Kill Chain</span>
+              <span className="text-white group-hover:text-green-400 transition-colors">Secure Websites</span>
             </div>
           </div>
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <button className="btn bg-green-600 hover:bg-green-500 text-white border-none btn-lg">
               View Security Portfolio
             </button>
             <button className="btn btn-outline border-green-500 text-green-500 hover:bg-green-500 hover:text-black">
               Contact For Services
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Content - Profile Image */}
@@ -104,7 +102,7 @@ function Hero() {
 
               {/* Image Caption */}
               <div className="bg-black border border-green-500 text-green-500 font-mono py-2 px-4 absolute -bottom-5 left-1/2 transform -translate-x-1/2 rounded-full shadow-lg">
-                Ethical Hacking Expert
+                Fullstack Developer
               </div>
             </div>
           </div>

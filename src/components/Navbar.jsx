@@ -83,7 +83,7 @@ export default function Navbar() {
                 <h1 className="text-xl md:text-2xl font-bold text-green-500 font-mono">
                   Makhosi <span className="text-white">Ncube</span>
                 </h1>
-                <p className="text-xs text-green-500/80 -mt-1 font-mono">Ethical Hacker & Security Specialist</p>
+                <p className="text-xs text-green-500/80 -mt-1 font-mono">Full Stack Web Developer</p>
               </div>
               <h1 className="text-xl font-bold text-green-500 font-mono sm:hidden">MN</h1>
             </motion.div>
@@ -126,7 +126,7 @@ export default function Navbar() {
                 whileTap={{ scale: 0.95 }}
                 className="ml-4 px-5 py-2 bg-gradient-to-r from-green-600 to-green-500 text-white font-medium rounded-lg shadow-lg shadow-green-500/30 hover:shadow-green-500/50 transition-all duration-200 font-mono flex items-center"
               >
-                <FaShieldAlt className="mr-2" /> Security Consultation
+                <FaShieldAlt className="mr-2" /> Web Development
               </motion.button>
             </div>
 
@@ -170,7 +170,7 @@ export default function Navbar() {
                     </a>
                   ))}
                   <button className="w-full mt-3 px-5 py-2 bg-gradient-to-r from-green-600 to-green-500 text-white font-medium rounded-lg shadow-lg shadow-green-500/30 hover:shadow-green-500/50 transition-all duration-200 font-mono flex items-center justify-center">
-                    <FaShieldAlt className="mr-2" /> Security Consultation
+                    <FaShieldAlt className="mr-2" /> Web Development
                   </button>
                 </div>
               </motion.div>
@@ -181,7 +181,7 @@ export default function Navbar() {
 
       {/* Binary code floating elements */}
       <div className="absolute top-20 right-10 text-green-500/10 font-mono text-xs animate-float hidden lg:block">
-        01001101 01100001 01101011 01101000 01101111 01110011 01101001
+        01001101 01100001 deployment successful 01110011 01101001
       </div>
 
       {/* Custom animations */}

@@ -6,8 +6,8 @@ import {
   FaDiscord,
   FaMapMarkerAlt,
   FaEnvelope,
-  FaShieldAlt,
-  FaLock,
+  FaCode,
+  FaLaptopCode,
 } from "react-icons/fa"
 
 function Footer() {
@@ -31,38 +31,10 @@ function Footer() {
         </svg>
       </div>
 
-      {/* Newsletter Section */}
+      {/* Main Footer Content */}
       <div className="relative z-10 container mx-auto px-4 pt-24 pb-12">
-        {/* <div className="bg-gradient-to-r from-black/60 via-green-500/20 to-black/60 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-green-500/20 shadow-lg shadow-green-500/5 mb-16">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 font-mono">Security Updates</h3>
-              <p className="text-gray-300">
-                Subscribe to my newsletter for the latest cybersecurity insights, vulnerability alerts, and security
-                tips.
-              </p>
-            </div>
-            <div>
-              <form className="flex flex-col sm:flex-row gap-4">
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  className="flex-grow px-4 py-3 bg-black/50 border border-green-500/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500/50 text-white font-mono"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="px-6 py-3 bg-green-600 text-white font-bold rounded-lg transition-all hover:bg-green-500 whitespace-nowrap font-mono flex items-center justify-center"
-                >
-                  <FaLock className="mr-2" size={14} /> Subscribe
-                </button>
-              </form>
-            </div>
-          </div>
-        </div> */}
-
-        {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+          
           {/* Column 1: About */}
           <div>
             <div className="flex items-center mb-6">
@@ -72,8 +44,9 @@ function Footer() {
               <h3 className="text-xl font-bold text-green-500 font-mono">Makhosi Ncube</h3>
             </div>
             <p className="text-gray-400 mb-6">
-              Junior ethical hacker specializing in penetration testing, vulnerability assessment, and security
-              consulting. With expertise in MITRE ATT&CK Framework and Cyber Kill Chain methodology.
+              Full-stack web developer focused on building modern, responsive,
+              and high-quality digital applications. Passionate about UI/UX,
+              scalable back-end systems, and clean, efficient code.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-black/30 hover:bg-green-500/20 p-2.5 rounded-full transition-colors">
@@ -98,71 +71,26 @@ function Footer() {
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-green-500"></span>
             </h3>
             <ul className="space-y-3">
-              <li>
-                <a href="/" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Home
-                </a>
-              </li>
-              <li>
-                <a href="/#about" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> About Me
-                </a>
-              </li>
-              <li>
-                <a href="/#services" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Security Services
-                </a>
-              </li>
-              {/* <li>
-                <a href="/#projects" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Projects
-                </a>
-              </li>
-              <li>
-                <a href="/#blog" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Security Blog
-                </a>
-              </li> */}
-              <li>
-                <a href="/#contact" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Contact
-                </a>
-              </li>
+              <li><a href="/" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> Home</a></li>
+              <li><a href="/#about" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> About Me</a></li>
+              <li><a href="/#services" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> What I Do</a></li>
+              <li><a href="/#projects" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> Projects</a></li>
+              <li><a href="/#contact" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> Contact</a></li>
             </ul>
           </div>
 
-          {/* Column 3: Services */}
+          {/* Column 3: Developer Services */}
           <div>
             <h3 className="text-xl font-bold text-white mb-6 relative font-mono">
-              Security Services
+              Developer Services
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-green-500"></span>
             </h3>
             <ul className="space-y-3">
-              <li>
-                <a href="/#services" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Penetration Testing
-                </a>
-              </li>
-              <li>
-                <a href="/#services" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Vulnerability Assessment
-                </a>
-              </li>
-              <li>
-                <a href="/#services" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Network Security
-                </a>
-              </li>
-              <li>
-                <a href="/#services" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Red Team Operations
-                </a>
-              </li>
-              <li>
-                <a href="/#services" className="text-gray-400 hover:text-green-500 transition-colors flex items-center">
-                  <span className="mr-2 font-mono">›</span> Security Consultation
-                </a>
-              </li>
+              <li><a href="/#services" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> Front-End Development</a></li>
+              <li><a href="/#services" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> Back-End Development</a></li>
+              <li><a href="/#services" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> API Integration</a></li>
+              <li><a href="/#services" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> UI / UX Design</a></li>
+              <li><a href="/#services" className="text-gray-400 hover:text-green-500 flex items-center"><span className="mr-2 font-mono">›</span> Full-Stack Solutions</a></li>
             </ul>
           </div>
 
@@ -175,7 +103,7 @@ function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-green-500 mt-1 mr-3" size={18} />
-                <span className="text-gray-400">Remote & On-site Services Available</span>
+                <span className="text-gray-400">Available for Remote & Local Projects</span>
               </li>
               <li className="flex items-start">
                 <FaEnvelope className="text-green-500 mt-1 mr-3" size={18} />
@@ -187,12 +115,12 @@ function Footer() {
                 </a>
               </li>
               <li className="flex items-start">
-                <FaShieldAlt className="text-green-500 mt-1 mr-3" size={18} />
-                <span className="text-gray-400">Secure Communications Available</span>
+                <FaLaptopCode className="text-green-500 mt-1 mr-3" size={18} />
+                <span className="text-gray-400">Freelance & Contract Work Accepted</span>
               </li>
               <li className="flex items-start">
-                <FaLock className="text-green-500 mt-1 mr-3" size={18} />
-                <span className="text-gray-400 font-mono">PGP Key Available on Request</span>
+                <FaCode className="text-green-500 mt-1 mr-3" size={18} />
+                <span className="text-gray-400 font-mono">Clean • Modern • Scalable Code</span>
               </li>
             </ul>
           </div>
@@ -202,26 +130,20 @@ function Footer() {
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-center md:text-left mb-4 md:mb-0">
-              © {currentYear} Makhosi Ncube | Ethical Hacker & Security Specialist
+              © {currentYear} Makhosi Ncube | Full-Stack Web Developer
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <a href="#" className="text-gray-500 hover:text-green-500 transition-colors">
-                Privacy Policy
-              </a>
+              <a href="#" className="text-gray-500 hover:text-green-500">Privacy Policy</a>
               <span className="text-gray-700">|</span>
-              <a href="#" className="text-gray-500 hover:text-green-500 transition-colors">
-                Terms of Service
-              </a>
+              <a href="#" className="text-gray-500 hover:text-green-500">Terms of Service</a>
               <span className="text-gray-700">|</span>
-              <a href="#" className="text-gray-500 hover:text-green-500 transition-colors">
-                Security Disclosure
-              </a>
+              <a href="#" className="text-gray-500 hover:text-green-500">Brand Guidelines</a>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Back to Top Button */}
+      {/* Back to Top */}
       <a
         href="#"
         className="fixed bottom-6 right-6 bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-green-500 transition-colors z-50"
@@ -230,57 +152,18 @@ function Footer() {
           window.scrollTo({ top: 0, behavior: "smooth" })
         }}
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
         </svg>
       </a>
 
-      {/* Binary code floating elements */}
+      {/* Floating Binary - keep aesthetic */}
       <div className="absolute bottom-40 left-10 text-green-500/20 font-mono text-xs animate-float hidden lg:block">
         01001101 01100001 01101011 01101000 01101111 01110011 01101001
       </div>
       <div className="absolute top-40 right-10 text-green-500/20 font-mono text-xs animate-float hidden lg:block">
         01001110 01100011 01110101 01100010 01100101
       </div>
-
-      {/* Custom animations */}
-      <style jsx>{`
-        @keyframes pulse {
-          0%,
-          100% {
-            opacity: 0.3;
-            transform: scale(1);
-          }
-          50% {
-            opacity: 0.5;
-            transform: scale(1.05);
-          }
-        }
-        .animate-pulse {
-          animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-        }
-
-        @keyframes float {
-          0% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-          100% {
-            transform: translateY(0);
-          }
-        }
-        .animate-float {
-          animation: float 6s ease-in-out infinite;
-        }
-      `}</style>
     </footer>
   )
 }

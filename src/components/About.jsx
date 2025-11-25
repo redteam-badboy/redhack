@@ -8,7 +8,7 @@ function AboutUs() {
     <section id="about" className="relative w-full py-20 md:py-28 overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src="about.jpg" alt="Cybersecurity background" className="w-full h-full object-cover" />
+        <img src="ui.webp" alt="Cybersecurity background" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
         {/* Matrix-like overlay */}
         <div className="absolute inset-0 bg-[url('matrix-code.png')] opacity-10"></div>
@@ -32,9 +32,11 @@ function AboutUs() {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-mono">About Me</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Discover my journey in cybersecurity, ethical hacking, and my commitment to securing digital
-              infrastructures through advanced penetration testing methodologies.
-            </p>
+  Discover my journey in full-stack web development and my dedication to building
+  secure, modern, and high-quality digital applications using industry-standard
+  development practices and methodologies.
+</p>
+
           </motion.div>
         </div>
 
@@ -56,7 +58,7 @@ function AboutUs() {
               {/* Profile Image with hexagonal clip path */}
               <div className="relative overflow-hidden rounded-lg">
                 <img
-                  src="about.webp"
+                  src="ui.webp"
                   alt="Makhosi Ncube - Ethical Hacker"
                   className="w-full h-auto object-cover"
                 />
@@ -81,19 +83,24 @@ function AboutUs() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h3 className="text-3xl font-bold text-green-500 font-mono">Ethical Hacking Specialist</h3>
-            <p className="text-gray-300">
-              I am Makhosi Ncube, a junior ethical hacker with a passion for cybersecurity and digital forensics. My
-              expertise lies in identifying vulnerabilities in systems and networks using industry-standard
-              methodologies and frameworks.
-            </p>
+          <h3 className="text-3xl font-bold text-green-500 font-mono">
+  Full-Stack Web Developer
+</h3>
 
-            <p className="text-gray-300">
-              With a strong foundation in the Certified Ethical Hacker (CEH) principles, MITRE ATT&CK Framework, and
-              Cyber Kill Chain methodology, I approach security challenges with both technical precision and strategic
-              thinking. My goal is to help organizations strengthen their security posture through comprehensive
-              penetration testing and security assessments.
-            </p>
+<p className="text-gray-300">
+  I am Makhosi Ncube, a junior full-stack web developer with a passion for
+  building modern, responsive, and user-friendly applications. I enjoy working
+  with both front-end and back-end technologies to create clean, scalable, and
+  well-structured solutions.
+</p>
+
+<p className="text-gray-300">
+  With a strong foundation in HTML, CSS, JavaScript, and modern frameworks, React and Next.Js
+  I focus on writing efficient code, improving UI/UX, and building applications
+  that solve real-world problems. My goal is to continue growing as a developer
+  while contributing to impactful an.d innovative software projects.
+</p>
+
 
             {/* Key Features with Icons */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
@@ -102,8 +109,8 @@ function AboutUs() {
                   <FaGraduationCap className="text-green-500" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white">CEH Certified</h4>
-                  <p className="text-gray-400 text-sm">Trained in ethical hacking methodologies</p>
+                  <h4 className="font-bold text-white">BCS Certified</h4>
+                  <p className="text-gray-400 text-sm">Trained in Latest Evolving Technologies</p>
                 </div>
               </div>
 
@@ -112,8 +119,8 @@ function AboutUs() {
                   <BiTargetLock className="text-green-500" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white">Red Team Operations</h4>
-                  <p className="text-gray-400 text-sm">Simulating real-world attack scenarios</p>
+                  <h4 className="font-bold text-white">Frond End Web Development</h4>
+                  <p className="text-gray-400 text-sm">Simulating websites with great UI and UX</p>
                 </div>
               </div>
 
@@ -122,8 +129,8 @@ function AboutUs() {
                   <BiNetworkChart className="text-green-500" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white">MITRE ATT&CK</h4>
-                  <p className="text-gray-400 text-sm">Advanced threat modeling and analysis</p>
+                  <h4 className="font-bold text-white">Back End Web Development</h4>
+                  <p className="text-gray-400 text-sm">Advanced database and server configurations</p>
                 </div>
               </div>
 
@@ -132,17 +139,17 @@ function AboutUs() {
                   <FaLaptopCode className="text-green-500" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white">Cyber Kill Chain</h4>
-                  <p className="text-gray-400 text-sm">Comprehensive attack lifecycle analysis</p>
+                  <h4 className="font-bold text-white">Web Security & SEO</h4>
+                  <p className="text-gray-400 text-sm">SEO optimised and secure channels implemented</p>
                 </div>
               </div>
             </div>
 
             {/* CTA Button */}
             <div className="pt-6">
-              <a href="/" className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-mono rounded-md transition-all duration-300 hover:shadow-[0_0_15px_rgba(16,185,129,0.5)] flex items-center justify-center">
+              <a href="https://redhack.vercel.app" target="blank" className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-mono rounded-md transition-all duration-300 hover:shadow-[0_0_15px_rgba(16,185,129,0.5)] flex items-center justify-center">
                 <FaUserSecret className="mr-2" size={18} />
-                View My Credentials
+                View My Security profile
               </a>
             </div>
           </motion.div>
